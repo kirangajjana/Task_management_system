@@ -8,7 +8,7 @@ class Queue:
             self.item.append(data)
     
     def Dequeue(self):
-        self.item.remove(0)        
+        self.item.pop(0)        
         
     def is_empty(self):
         if len(self.item)==0:
